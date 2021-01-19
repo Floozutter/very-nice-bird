@@ -1,3 +1,5 @@
+#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+
 fn main() {
     use ggez::{ContextBuilder, conf::{WindowSetup, WindowMode}};
     let builder = ContextBuilder::new("very-nice-bird", "Floozutter")
