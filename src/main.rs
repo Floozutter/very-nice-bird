@@ -2,7 +2,7 @@
 
 fn main() {
     use ggez::{ContextBuilder, conf::{WindowSetup, WindowMode}};
-    let builder = ContextBuilder::new("very-nice-bird", "Floozutter")
+    let builder = ContextBuilder::new("very-nice-bird", "floozutter")
         .window_setup(
             WindowSetup::default()
                 .title("living in a house under the wing of a very nice bird")
